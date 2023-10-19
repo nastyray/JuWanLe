@@ -61,12 +61,20 @@
             <artifactId>hutool-all</artifactId>
             <version>5.7.17</version>
         </dependency>
+        <!--redisson-->
+        <!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.23.0</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.testng</groupId>-->
+<!--            <artifactId>testng</artifactId>-->
+<!--            <version>RELEASE</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
