@@ -2,10 +2,6 @@ package com.hmdp.utils;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
-import org.testng.annotations.Test;
-
-import javax.annotation.Resource;
-import java.security.PrivateKey;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
@@ -56,9 +52,5 @@ public class RedisIdWorker {
         LocalDateTime time = LocalDateTime.of(2022, 1, 1, 0, 0, 0);
         long second = time.toEpochSecond(ZoneOffset.UTC);
         System.out.println("second =" + second);
-
-
-
-
     }
 }
